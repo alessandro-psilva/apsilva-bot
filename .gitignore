@@ -1,0 +1,7 @@
+# Ignore files
+*.egg
+*.egg-info
+__pycache__
+geckodriver.log
+
+# Ignore folders
