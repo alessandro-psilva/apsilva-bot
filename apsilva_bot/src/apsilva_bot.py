@@ -10,10 +10,10 @@ class ApsilvaBot:
     def __init__(self, username, password):
         self.username = username
         self.password = password
+        os.system("cls")
+
         self.driver   = webdriver.Firefox(
             executable_path='geckodriver\geckodriver.exe')
-
-        os.system("cls")
         
     def login(self):
         driver = self.driver
